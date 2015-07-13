@@ -87,7 +87,6 @@ else
   puts "Its a tie!"
 end
 
-
 # Hard computer
 # First check if two O in a row. Put third O there
 # Next check if two X in a row, Put third O there
@@ -100,6 +99,3 @@ end
 
 # If turn == 1 and if player puts in middle, put in center
 ## If player puts in corner, put in opposite corner
-
-
-    
