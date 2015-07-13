@@ -57,8 +57,8 @@ draw_board(b_hash)
 begin
 
   begin
-  puts "Select an empty square to put your X in. Enter a number between 1 to 9:"
-  player_sq = gets.chomp.to_i
+    puts "Select an empty square to put your X in. Enter a number between 1 to 9:"
+    player_sq = gets.chomp.to_i
 
   # Check if player puts X in empty square
   # loop until empty_squares array does not include? player_sq
